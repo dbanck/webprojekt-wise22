@@ -1,0 +1,122 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;  
+}
+
+header {
+  background: #c5ee9f;
+  padding: 20px;
+  color: #003362;
+}
+
+h1 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+}
+
+
+
+
+/* Stufenförmig */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Spezifität */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Box Modell */
+* {
+  /* border: 1px solid red !important; */
+}

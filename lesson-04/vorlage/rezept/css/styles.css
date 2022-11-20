@@ -1,0 +1,45 @@
+body {
+  font-size: 20px;
+}
+
+header {
+  background-color: #a1c2e1;
+  padding: 10px;
+}
+
+main {
+  background-color: wheat;
+  padding: 10px;
+}
+
+footer {
+  background-color: antiquewhite;
+  height: 200px;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+h2,
+h3,
+a {
+  color: darkslateblue;
+}
+
+img {
+  width: 300px;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}

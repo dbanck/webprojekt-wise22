@@ -10,7 +10,7 @@ Hier findet ihr alle Materialien, die wir euch zur Verfügung stellen möchten. 
 
 - [**Lektion 01: Auftakt**](./lesson-01) - Wer bin ich und was mache ich eigentlich hier?
 - [**Lektion 02: HTML**](./lesson-02) - Inhalte strukturieren
-- Lektion 03: HTML & CSS - Wie wird das jetzt schön?
+- [**Lektion 03: HTML & CSS**](./lesson-03) - Wie wird das jetzt schön?
 - Lektion 04: CSS - Schönheit 2.0
 - Lektion 05: Webentwicklung angewandt - Wie arbeitet ein Webentwickler?
 - Lektion 06: JS I - Wenn dies, dann das

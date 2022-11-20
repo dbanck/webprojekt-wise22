@@ -1,0 +1,60 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+header {
+  background: #c5ee9f;
+  padding: 20px;
+  color: #003362;
+}
+
+h1 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Stufenförmig */
+ul strong,
+ul li strong,
+ul li > strong {
+  color: #3283b9;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Spezifität */
+div {
+  background: red;
+}
+
+#blue {
+  background: skyblue;
+}
+
+.red {
+  background: red;
+}
+
+div {
+  background: green;
+}
+
+/* Box Modell */
+* {
+  border: 1px solid red !important;
+}
+
+.my-box-model {
+  background: lightseagreen;
+  width: 100px;
+  height: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 100px;
+}
