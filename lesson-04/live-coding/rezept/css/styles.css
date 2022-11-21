@@ -32,6 +32,23 @@ img {
   width: 300px;
 }
 
-span {
+.text-blue {
   color: blue;
 }
+
+.text-white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+#basti {
+  color: deeppink;
+}
+

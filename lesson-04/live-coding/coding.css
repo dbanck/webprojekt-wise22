@@ -23,8 +23,14 @@ main {
 
 
 /* Stufenförmig */
+ul strong {
+  color: red;
+}
 
-
+/* 
+li strong {
+  color: peru;
+} */
 
 
 
