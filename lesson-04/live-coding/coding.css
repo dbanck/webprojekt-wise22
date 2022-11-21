@@ -89,14 +89,22 @@ li strong {
 
 
 
+div {
+  color: red;
+  font-size: 20px;
+}
 
+.div {
+  color: blue;
+}
 
+.green {
+  color: green;
+}
 
-
-
-
-
-
+#div {
+  color: deeppink;
+}
 
 
 
@@ -124,5 +132,12 @@ li strong {
 
 /* Box Modell */
 * {
-  /* border: 1px solid red !important; */
+  border: 1px solid red !important;
+}
+
+.boxmodell {
+  border: 2px solid black;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
 }
