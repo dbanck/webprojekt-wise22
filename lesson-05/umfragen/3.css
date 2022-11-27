@@ -1,0 +1,21 @@
+.my-class {
+  color: blue;
+  background-color: gold;
+}
+
+.my-class {
+  background-color: red;
+}
+
+h2 {
+  color: red;
+  font-size: 44px;
+}
+
+#id {
+  font-size: 22px;
+}
+
+h2 {
+  color: green;
+}
