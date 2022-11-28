@@ -10,6 +10,7 @@ html {
 h1,
 h2 {
   color: #6b6b6b;
+  font-family: "Acme", sans-serif;
 }
 
 .content {
@@ -17,6 +18,7 @@ h2 {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
+  font-family: "Hind Guntur", sans-serif;
 }
 
 .content * {

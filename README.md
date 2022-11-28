@@ -12,7 +12,7 @@ Hier findet ihr alle Materialien, die wir euch zur Verfügung stellen möchten. 
 - [**Lektion 02: HTML**](./lesson-02/) - Inhalte strukturieren
 - [**Lektion 03: HTML & CSS**](./lesson-03/) - Wie wird das jetzt schön?
 - [**Lektion 04: CSS**](./lesson-04/) - Schönheit 2.0
-- Lektion 05: Webentwicklung angewandt - Wie arbeitet ein Webentwickler?
+- [**Lektion 05: Webentwicklung angewandt**](./lesson-05/) - Wie arbeitet ein Webentwickler?
 - Lektion 06: JS I - Wenn dies, dann das
 - Lektion 07: JS II - Wenn dies, dann das
 - Lektion 08: Responsive Webdesign - Make it fit

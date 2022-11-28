@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #55ffd6;
+  height: 100px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+}
+
+nav {
+  width: 1200px;
+  margin: auto;
+  height: 100%;
+}
+
+.nav-list li {
+  width: 25%;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid white;
+}
+
+.nav-list li.last {
+  border-right: 1px solid white;
+}
+
+.nav-list li.active {
+  background: #469b87;
+}
+
+.nav-list li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
