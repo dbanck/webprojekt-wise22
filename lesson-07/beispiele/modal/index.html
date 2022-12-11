@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=baloo-chettan-2:700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="functions.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <button class="fancy-btn" onclick="openModal()" id="my-cool-btn">
+        <span>Click me!</span>
+      </button>
+
+      <div id="modal" class="overlay hidden">
+        <div class="modal-content">
+          <button onclick="closeModal()" class="btn-close-modal">X</button>
+
+          <h2>Mein Overlay</h2>
+          <div class="flex">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestias praesentium quae reprehenderit neque mollitia culpa nam,
+              sapiente expedita, voluptatem commodi incidunt illum fugit iste
+              odio dolores tempora quas pariatur autem! <br /><br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestias praesentium quae reprehenderit neque mollitia culpa nam,
+              sapiente expedita, voluptatem commodi incidunt illum fugit iste
+              odio dolores tempora quas pariatur autem!
+            </p>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1575224300306-1b8da36134ec?auto=format&fit=crop&w=200&q=80"
+                alt="Lollipop lollipop, oh lolli-lollipop"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
