@@ -57,30 +57,35 @@
                 class="preview-active"
                 src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Coffee art"
+                onclick="showAsPreview(this)"
               />
             </li>
             <li>
               <img
                 src="https://images.pexels.com/photos/2858192/pexels-photo-2858192.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Coffee latte in black mug"
+                onclick="showAsPreview(this)"
               />
             </li>
             <li>
               <img
                 src="https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Cafe latte"
+                onclick="showAsPreview(this)"
               />
             </li>
             <li>
               <img
                 src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Photo of Hand Holding a Filled Cup Latte"
+                onclick="showAsPreview(this)"
               />
             </li>
             <li>
               <img
                 src="https://images.pexels.com/photos/4927239/pexels-photo-4927239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="A Close-up Shot of a Person Making a Latte Art"
+                onclick="showAsPreview(this)"
               />
             </li>
           </ul>
@@ -90,6 +95,7 @@
               class="large"
               src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Coffee art"
+              id="large-preview-image"
             />
           </div>
         </div>
@@ -107,7 +113,7 @@
             </div>
 
             <div class="field-container">
-              <button type="submit">Sold Out</button>
+              <button type="submit" onclick="openModal()">Sold Out</button>
             </div>
           </div>
         </div>
@@ -193,9 +199,9 @@
       <div>© 2022 Fake Shop</div>
     </footer>
 
-    <div class="overlay">
+    <div class="overlay" id="modal">
       <div class="modal-content">
-        <button class="modal-closer">x</button>
+        <button class="modal-closer" onclick="closeModal()">x</button>
         <h3>
           We are refilling stocks. Sign up for your personal email reminder
         </h3>
@@ -206,12 +212,17 @@
         </p>
 
         <div class="field-container">
-          <input type="email" placeholder="Your email..." />
+          <input
+            type="email"
+            placeholder="Your email..."
+            id="email-input"
+            oninput="validateEmail()"
+          />
         </div>
-        <div class="error"></div>
+        <div class="error" id="error-element"></div>
 
         <div class="field-container">
-          <button type="submit" disabled>Remind me</button>
+          <button type="submit" disabled id="submit-btn">Remind me</button>
         </div>
       </div>
     </div>
