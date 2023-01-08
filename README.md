@@ -15,7 +15,7 @@ Hier findet ihr alle Materialien, die wir euch zur Verfügung stellen möchten. 
 - [**Lektion 05: Webentwicklung angewandt**](./lesson-05/) - Wie arbeitet ein Webentwickler?
 - [**Lektion 06: JS I**](./lesson-06/) - Wenn dies, dann das
 - [**Lektion 07: JS II**](./lesson-07) - Wenn dies, dann das
-- Lektion 08: Responsive Webdesign - Make it fit
+- [**Lektion 08: Responsive Webdesign**](./lesson-08/) - Make it fit
 - Lektion 09: CSS Frameworks & Projektarbeit - Stein auf Stein
 - Lektion 10: Dynamisches HTML & Projektarbeit
 - Lektion 11: Präsentationen
