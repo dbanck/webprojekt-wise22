@@ -34,7 +34,7 @@ ul {
   padding: 24px 0;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* <-- wollen wir überschreiben, zu Column */
 }
 
 nav {
@@ -42,5 +42,21 @@ nav {
   background-size: cover;
   display: flex;
   align-items: center;
-  height: 150px;
+  height: 150px; /* <-- die Höhe darf nicht fix sein */
+}
+
+@media (max-width: 920px) {
+  ul {
+    flex-direction: column;
+  }
+
+  nav {
+    height: auto;
+  }
+}
+
+@media (max-width: 599px) {
+  body {
+    background-color: red;
+  }
 }
