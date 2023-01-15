@@ -1,0 +1,12 @@
+.container {
+  padding: 50px 20px;
+}
+
+.card {
+  max-width: 450px;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
