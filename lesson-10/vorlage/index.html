@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Blog-Content</title>
+
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="load-blog.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img
+          src="https://www.filmtourismus.de/wp-content/uploads/2015/06/filmtourismus-de-die-welt-der-drehorte.png"
+          alt=""
+        />
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Neu hier?</li>
+            <li class="active">Reiseblog</li>
+            <li>Filme & Serien A-Z</li>
+            <li>Drehorte A-Z</li>
+            <li>Park & Studios</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Reiseblog</h1>
+        <nav class="breadcrumb">
+          <ul>
+            <li>Home</li>
+            <li>Reiseblog</li>
+          </ul>
+        </nav>
+        <div class="flex">
+          <section class="content" id="blog-content">
+            <!-- blog articles will go here -->
+          </section>
+
+          <aside class="sidebar-right">
+            <div>Search</div>
+            <div>Social Media Icons</div>
+            <div>Reisetipps für Filmfans</div>
+            <div>...</div>
+          </aside>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
